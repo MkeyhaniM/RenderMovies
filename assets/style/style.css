@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: block;
+    min-height: 70px;
+    background-color: #ff3d29;
+}
+
+header h3 {
+    margin: 20px;
+    font-family: "Comic Sans MS";
+    width: 300px;
+    float: left;
+    color: whitesmoke;
+}
+
+header input {
+    color: black;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    float: right;
+}
+
+section {
+    padding: 10px;
+    background-color: white;
+}
+
+div.movies {
+    vertical-align: top;
+    margin: 10px;
+    width: 310px;
+    display: inline-block;
+    background-color: rgba(50, 110, 101, 0.58);
+}
+
+div.movies img {
+    width: 100%;
+    min-height: 460px;
+    margin: 0;
+    padding: 0;
+}
+
+div.movies .perh2 {
+    padding: 10px;
+    margin: 0;
+    background-color: #ff2c1d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.movies .perh2 h2 {
+    font-size: 20px;
+    color: white;
+    font-family: "Comic Sans MS";
+}
+
+div.movies .perh2 span {
+    font-weight: bold;
+    font-size: 21px;
+    padding: 5px;
+    color: white;
+    border-radius: 7px;
+    background-color: rgba(98, 110, 91, 0.58);
+    font-family: Algerian;
+}
+
+div.movies div.perover {
+    padding: 2rem;
+}
+
+div.movies div.perover p {
+    font-size: 21px;
+    font-family: Bahnschrift;
+}
+
+.green {
+    color: #2eff11 !important;
+}
+
+.yellow {
+    color: yellow !important;
+}
+
+.red {
+    color: #ff2c1d !important;
+}
